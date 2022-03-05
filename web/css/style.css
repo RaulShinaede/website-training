@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 80px;
+    width: 100%;
+    background-color: #FAFAFA;
+    box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.nav-item {
+    display: inline-block;
+    margin: 3px;
+    border: 1px solid rgb(245, 147, 0, 0.6);
+    padding: 1px 6px 2px 6px;
+    border-radius: 3px;
+}
+
+.button-content {
+    color: rgb(245, 147, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+
+.nav-item:hover {
+    box-shadow: .5px .5px .5px rgb(0,0,0,.2);
+}
