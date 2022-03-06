@@ -10,10 +10,27 @@ header {
 
 .container {
     position: absolute;
-    height: 800px;
+    height: 700px;
     width: 50%;
     background: #F9F9F9;
+    border-bottom: 1px solid rgb(180, 180, 180);
 }
+
+.container img {
+    position: absolute;
+    width: 50%;
+    top: 80px;
+    left: 140px;
+}
+
+.complement {
+    position: absolute;
+    top: 700px;
+    height: 100px;
+    width: 70%;
+    background: rgb(150, 80, 1);
+}
+
 
 .parallax {
     background-image: url('../assets/background.jpg');
@@ -25,14 +42,14 @@ header {
     position: absolute;
     width: 80%;
     right: 0;
-    clip-path: polygon(100% 0, 100% 800px, 30% 800px, 30% 0);
+    clip-path: polygon(100% 0, 100% 800px, 40% 800px, 30% 700px,  30% 0);
 }
 
 nav {
     position: absolute;
     right: 80px;
     top: 50px;
-    z-index: 1;
+    z-index: 1; 
 }
 
 .nav-item {
@@ -51,45 +68,70 @@ nav {
     cursor: pointer;
 }
 
-.items-container {
-    position: absolute;
-    right: 80px;
-    top: 200px;
-    width: 700px;
-    height: 500px;
-    background: #FAFAFA;
-    box-shadow: 1px 1px 1px rgb(150, 80, 1);
-}
-
-.items-container ol {
-    position: absolute;
-    top: 20px;
-}
-
-.items-container .item {
-    width: 200px;
-    height: 430px;
-    top: 20px;
-    background: #FFF;
-    box-shadow: 0 0 3px #D3D3D3;
-    display: inline-block;
-    margin-left: 25px;
-}
-
-.item img {
-    width: 200px;
-}
-
-.access-button {
-    position: relative;
-    display: inline-block;
-    border: 1px solid  rgb(150, 80, 1);
-    margin-top: 50px;
-    margin-left: 10px;
-    width: 180px;
-    height: 35px;
+main {
     text-align: center;
-    color: rgb(170, 100, 1);
-    font-size: 18px;
-    text-align:center;
+    background: #F9F9F9;
+    height: 1200px;
 }
+
+.presentation-container {
+    position: relative;
+    height: 120px;
+    width: 100%;
+    background:rgb(150, 80, 1);
+}
+
+.section-title {
+    position: absolute;
+    font-size: 42px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #FFF;
+    margin: 50px 0 0 100px;
+}
+
+.guitars {
+    position: relative;
+    height: 800px;
+    left: 25%;
+    top: 40px;
+    width: 940px;
+}
+
+.guitars ul {
+    margin-top: 33px;
+}
+
+.guitar-item {
+    position: relative;
+    width: 200px;
+    height: 380px;
+    display: inline-block;
+    background: #FFF;
+    box-shadow: 0 0 3px #C6C6C6;
+    margin-left: 20px;
+    padding: 10px 0 0 0;
+}
+
+.guitar-image {
+    position: absolute;
+    width: 200px;
+    left: 0;
+}
+
+.see-all {
+    margin-top: 100px;
+    margin-left: 550px;
+    font-size: 20px;
+    color:rgb(170, 100, 1);
+    border: 1px solid rgb(150, 80, 1);
+    width: 140px;
+    border-radius: 3px;
+}
+
+footer {
+    background:rgb(150, 80, 1);
+    height: 200px;
+    width: 100%;
+    bottom: 0;
+}
+
